@@ -31,6 +31,7 @@ myenv/
 logs/
 *.log
 *.tmp
+.test
 
 # OS files
 .DS_Store
