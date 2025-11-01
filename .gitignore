@@ -1,0 +1,46 @@
+
+---
+
+## 🧾 **.gitignore**
+
+```gitignore
+# Environment variables
+.env.sample
+
+# Python cache and bytecode
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environments
+venv/
+.env/
+.venv/
+env/
+ENV/
+myenv/
+
+# IDE & editor files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Logs and temporary files
+logs/
+*.log
+*.tmp
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Attachments and test data (optional)
+attachments/
+data/*.csv
+
+# Build and dist
+build/
+dist/
+*.egg-info/

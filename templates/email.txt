@@ -1,0 +1,8 @@
+Hello {{user name by Sabarna}},
+
+This is a test email from the Email Automation Tool.
+
+Personal message: {{ personal_note by Sabarna }}
+
+Regards,
+Automation Bot
