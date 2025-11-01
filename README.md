@@ -65,6 +65,8 @@ test1@example.com
 
 Run the Script
 python src/main.py
+python -m src.email_sender --csv sample_data/recipients.csv --dry-run
+streamlit run streamlit_frontend.py
 
 The script will:
 • Read each row from the CSV file

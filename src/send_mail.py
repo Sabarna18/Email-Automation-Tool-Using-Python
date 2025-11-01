@@ -100,8 +100,6 @@ def main():
         logger.error("CSV file not found: %s", csv_path)
         return
 
-    # --- FIXED LOGIC HERE ---
-    # Priority: CLI argument overrides .env setting
     dry_run = args.dry_run if args.dry_run else config.DRY_RUN
     logger.info("Config.DRY_RUN = %s | CLI flag = %s → Using dry_run = %s", config.DRY_RUN, args.dry_run, dry_run)
 
